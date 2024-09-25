@@ -39,7 +39,6 @@ public class GameUIView : MonoBehaviour
     private void onTryAgainButtonClicked() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
 
-    //Assignment - Call this method as a lister of LightsOffByGhostEvent
     private void setRedVignette()
     {
         redVignette.enabled = true;
